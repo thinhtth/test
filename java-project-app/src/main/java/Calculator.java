@@ -17,7 +17,6 @@ public class Calculator {
 
             char operator = readOperator(scanner);
 
-            // ===== Nhập số thứ hai =====
             int num2;
             while (true) {
                 num2 = readIntInRange(scanner, "Enter second number", lowerLimit, upperLimit);
