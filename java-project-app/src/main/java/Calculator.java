@@ -13,10 +13,8 @@ public class Calculator {
         int upperLimit = 10;
 
         while (continueCalc) {
-            // ===== Nhập số thứ nhất =====
             int num1 = readIntInRange(scanner, "Enter first number", lowerLimit, upperLimit);
 
-            // ===== Nhập toán tử =====
             char operator = readOperator(scanner);
 
             // ===== Nhập số thứ hai =====
